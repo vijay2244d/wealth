@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Landmark, TrendingUp, ShieldCheck, PieChart, Mail, Info, Home as HomeIcon, Briefcase, User, Sparkles, PhoneCall, MailOpen } from 'lucide-react';
 import React, { useState, useEffect, useRef } from 'react';
